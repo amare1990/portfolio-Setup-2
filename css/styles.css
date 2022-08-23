@@ -45,12 +45,12 @@ body {
 .header-2 {
   height: 48px;
   max-width: 100%;
-
+  
   /* 
   left: 0.001px;
   top: 44px;
   */
-  
+
   margin-left: 24px;
   margin-right: 24px;
   display: flex;
@@ -153,6 +153,7 @@ li a {
 .social-networks li {
   display: inline-block;
 }
+
 .social-network {
   text-decoration: none;
   padding-right: 30px;
