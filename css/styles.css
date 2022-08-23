@@ -15,14 +15,29 @@ body {
   line-height: 24px;
 }
 
-.container {
+.wrapper {
+  height: 5410px;
+  width: 375px;
+  left: 11282px;
+  top: -1883px;
   position: relative;
+  background: #f7f7f9;
+}
+
+.container-homepage {
+  position: absolute;
 
   /* background-image: url('images/header-background-mobile.png'); */
 
-  height: 718px;
+  height: 604.0000610351562px;
   width: 375px;
-  background: #fff;
+  left: calc(50% - 375px / 2);
+  top: 92px;
+  padding: 114px, 24px, 114px, 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
 }
 
 .rectangle-6 {
@@ -133,6 +148,14 @@ body {
 
   color: #ebebff;
   transform: rotate(23.34deg);
+}
+
+.header {
+  position: absolute;
+  height: 48px;
+  width: 375px;
+  left: 0.001px;
+  top: 44px;
 }
 
 .my-logo {
