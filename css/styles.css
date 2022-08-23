@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   height: 5410px;
-  width: 375px;
+  width: 810px;
   left: 11282px;
   top: -1883px;
   background: #fff;
@@ -40,7 +40,7 @@ body {
 .header {
   position: absolute;
   height: 48px;
-  width: 375px;
+  max-width: 100%;
   left: 0.001px;
   top: 44px;
   margin-left: 24px;
@@ -140,7 +140,7 @@ li a {
   color: #7f8cff;
 }
 
-.social-networks .social-network{
+.social-networks .social-network {
   text-decoration: none;
 }
 
