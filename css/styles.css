@@ -25,13 +25,16 @@ body {
 
 .container-homepage {
   /* position: absolute; */
+
   background-image: url("/images/header-shapes-mobile.png");
   height: 604.0000610351562px;
   max-width: 100%;
+
   /*
   left: calc(50% - 375px / 2);
   top: 92px;
   */
+
   padding: 114px, 24px, 114px, 24px;
   display: flex;
   flex-direction: column;
@@ -42,14 +45,16 @@ body {
 .header-2 {
   height: 48px;
   max-width: 100%;
+
   /* 
   left: 0.001px;
   top: 44px;
   */
+  
   margin-left: 24px;
   margin-right: 24px;
   display: flex;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .my-logo {
@@ -69,7 +74,6 @@ body {
   background-color: #fff;
   border: 0;
 }
-
 
 .navbar {
   height: 40px;
@@ -145,7 +149,6 @@ li a {
 .contact-with-social {
   color: #7f8cff;
 }
-
 
 .social-networks li {
   display: inline-block;
