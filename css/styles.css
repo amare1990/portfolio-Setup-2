@@ -24,10 +24,10 @@ body {
 }
 
 .container-homepage {
-  position: relative;
+  position: absolute;
   background-image: url("/images/header-shapes-mobile.png");
   height: 604.0000610351562px;
-  max-width: 375px;
+  max-width: 100%;
   left: calc(50% - 375px / 2);
   top: 92px;
   padding: 114px, 24px, 114px, 24px;
@@ -48,7 +48,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
- 
 }
 
 .my-logo {
