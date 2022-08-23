@@ -68,6 +68,7 @@ body {
   width: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 8px;
   position: absolute;
   top: 4px;
@@ -140,11 +141,16 @@ li a {
   color: #7f8cff;
 }
 
-.social-networks .social-network {
+
+.social-networks li {
+  display: inline-block;
+}
+.social-network {
   text-decoration: none;
+  padding-right: 30px;
 }
 
-.social-networks .social-network i {
+li .social-network i {
   color: grey;
   padding-right: 10px;
   font-size: 20px;
