@@ -26,8 +26,7 @@ body {
 
 .container-homepage {
   position: relative;
-
-  /* background-image: url('images/header-background-mobile.png'); */
+  background-image: url("/images/header-shapes-mobile.png");
 
   height: 604.0000610351562px;
   width: 375px;
@@ -190,9 +189,8 @@ body {
   position: absolute;
   top: 4px;
   left: 311px;
-
 }
-ul li .bar{
+.menu-bar a i {
   height: 12px;
   width: 18px;
   left: 3px;
@@ -260,7 +258,7 @@ li a i {
 
 .social-networks .social-network i {
   color: grey;
-  padding-right: 5px;
+  padding-right: 10px;
   font-size: 20px;
   font-weight: 700;
 }
