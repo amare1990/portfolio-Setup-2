@@ -17,19 +17,21 @@ body {
 
 .wrapper {
   height: 5410px;
-  width: 810px;
+  max-width: 810px;
   left: 11282px;
   top: -1883px;
   background: #fff;
 }
 
 .container-homepage {
-  position: absolute;
+  /* position: absolute; */
   background-image: url("/images/header-shapes-mobile.png");
   height: 604.0000610351562px;
   max-width: 100%;
+  /*
   left: calc(50% - 375px / 2);
   top: 92px;
+  */
   padding: 114px, 24px, 114px, 24px;
   display: flex;
   flex-direction: column;
@@ -37,17 +39,17 @@ body {
   gap: 12px;
 }
 
-.header {
-  position: absolute;
+.header-2 {
   height: 48px;
   max-width: 100%;
+  /* 
   left: 0.001px;
   top: 44px;
+  */
   margin-left: 24px;
   margin-right: 24px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+ justify-content: space-between;
 }
 
 .my-logo {
@@ -63,6 +65,12 @@ body {
   text-decoration: none;
 }
 
+.bar {
+  background-color: #fff;
+  border: 0;
+}
+
+
 .navbar {
   height: 40px;
   width: 40px;
@@ -70,9 +78,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 8px;
-  position: absolute;
-  top: 4px;
-  left: 311px;
 }
 
 li a i {
@@ -85,7 +90,7 @@ li a i {
   width: 16px;
 }
 
-.menu-bar a i {
+.menu-bar button i {
   height: 12px;
   width: 18px;
   left: 3px;
