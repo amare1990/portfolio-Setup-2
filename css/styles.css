@@ -20,14 +20,12 @@ body {
   width: 375px;
   left: 11282px;
   top: -1883px;
-
   background: #f7f7f9;
 }
 
 .container-homepage {
   position: relative;
   background-image: url("/images/header-shapes-mobile.png");
-
   height: 604.0000610351562px;
   width: 375px;
   left: calc(50% - 375px / 2);
@@ -38,8 +36,6 @@ body {
   align-items: flex-start;
   gap: 12px;
 }
-
-
 
 .rectangle-6 {
   position: absolute;
@@ -162,12 +158,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 24px;
-  margin-right: 24px;*/
 }
 
 .my-logo {
@@ -182,6 +172,7 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
 .navbar {
   height: 40px;
   width: 40px;
@@ -192,6 +183,17 @@ body {
   top: 4px;
   left: 311px;
 }
+
+li a i {
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 29.17%;
+  bottom: 70.83%;
+  color: #6070ff;
+  width: 16px;
+}
+
 .menu-bar a i {
   height: 12px;
   width: 18px;
@@ -207,16 +209,6 @@ li {
 li a {
   text-decoration-style: none;
   position: relative;
-}
-
-li a i {
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 29.17%;
-  bottom: 70.83%;
-  color: #6070ff;
-  width: 16px;
 }
 
 .section-about {
